@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+
+}
+
+.bookHome{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/book-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 0.5;
+}
+
+.opt-box{
+    transition: top ease 0.5s;
+}
+
+
+
+.opt-box:hover{
+    transition: top ease 0.5s;
+    img{
+        filter: blur(1px);
+        border: 5px solid darkslategray;
+    }
+    h1{
+        transform: translateY(-100px);
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+}
+
+.form-bg{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/hire-photographer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.photo-form-bg{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/book-photographer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
